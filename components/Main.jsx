@@ -17,7 +17,7 @@ const Main = () => {
           </h1>
           <h1 className='py-2 text-gray-700'>An Information Security Analyst</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-          I'm dedicated to fortifying digital defenses, ensuring the security and integrity of systems, and proactively addressing cyber threats by implementing comprehensive information security measures.
+          I&apos;m dedicated to fortifying digital defenses, ensuring the security and integrity of systems, and proactively addressing cyber threats by implementing comprehensive information security measures.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
