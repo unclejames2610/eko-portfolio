@@ -17,10 +17,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_8xc2fkl',
-        'template_n8jmz83',
+        'service_2sl6vff',
+        'template_9yvi2va',
         refForm.current,
-        'i7YM5NOCU1cA0Jx3q'
+        '-r-OBM5HRCo0p5C3K'
       )
       .then(
         () => {
@@ -52,7 +52,7 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className='py-2'>Oche Moses Eko</h2>
-                <p>Front-End Developer</p>
+                <p>Information Security Analyst</p>
                 <p className='py-4'>
                   I am available for freelance or full-time positions. Contact
                   me and let&apos;s talk.
@@ -62,7 +62,7 @@ const Contact = () => {
                 <p className='uppercase pt-8'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
                   <a
-                    href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                    href='https://www.linkedin.com/in/oche-eko/'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -71,7 +71,7 @@ const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href='https://github.com/fireclint'
+                    href='https://github.com/OcheEko'
                     target='_blank'
                     rel='noreferrer'
                   >

@@ -20,14 +20,14 @@ const resume = () => {
           <h2 className='sm:text-center'>Oche Moses Eko (Meng | SC-900 | Security+)</h2>
           <div className='flex'>
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https://www.linkedin.com/in/oche-eko/'
               target='_blank'
               rel='noreferrer'
             >
               <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
             </a>
             <a
-              href='https://github.com/fireclint'
+              href='https://github.com/OcheEko'
               target='_blank'
               rel='noreferrer'
             >
@@ -38,26 +38,18 @@ const resume = () => {
         <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
           <div className='hidden sm:block'>
             <p>
-              Proven Leadership <span className='px-1'>|</span> Web Development{' '}
+              Proven Leadership <span className='px-1'>|</span> Information Security Analysis{' '}
               <span className='px-1'>|</span> Complex Problem Solving
             </p>
           </div>
           <div className='block sm:hidden'>
             <p>Proven Leadership</p>
-            <p className='py-2'>Web Development</p>
+            <p className='py-2'>Information Security Analysis</p>
             <p>Complex Problem Solving</p>
           </div>
         </div>
         <p>
-          Analytical, innovative, and motivated web development professional
-          with experience in customer service, team leadership, and
-          organizational effectiveness in fast-paced and challenging
-          environments. Adept at developing strategies and driving streamlined
-          operations. Diverse analytical skills, team collaboration, and
-          relationship building. Consummate professional, and motivated leader,
-          with solid interpersonal abilities and complex problem-solving skills.
-          Effective and proven track record of critical thinking, idea
-          generation, and optimizing efficiencies.
+        As an Information Security Analyst, I bring a wealth of experience in customer service, team leadership, and organizational effectiveness, all within fast-paced and challenging security environments. My expertise lies in developing robust security strategies, streamlining operations, and fostering collaboration among teams. I possess diverse analytical skills and excel in relationship building. With a proven track record, I am a consummate professional and motivated leader known for solid interpersonal abilities, complex problem-solving skills, critical thinking, and the generation of innovative security solutions, ultimately optimizing security efficiencies.
         </p>
 
         {/* Skills */}

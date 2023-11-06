@@ -10,14 +10,14 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Clint | Front-End Developer</title>
+        <title>Oche | Information Security Analyst</title>
         <meta name="description" content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences." />
-        <link rel="icon" href="/fav.png" />
+        <link rel="icon" href="/assets/navLogo.png" />
       </Head>
     <Main />
     <About />
     <Skills />
-    <Projects />
+    {/* <Projects /> */}
     <Contact />
     </div>
   )
