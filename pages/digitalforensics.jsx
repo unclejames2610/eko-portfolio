@@ -27,11 +27,11 @@ const digitalForensics = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          The goal of this digital forensics project was to uncover hidden evidence from a compromised system suspected of being used in illegal activities. The investigation focused on identifying hidden files, encrypted data, and steganographic content, as well as analyzing the system's volatile memory to extract critical information.
+          The goal of this digital forensics project was to uncover hidden evidence from a compromised system suspected of being used in illegal activities. The investigation focused on identifying hidden files, encrypted data, and steganographic content, as well as analyzing the systems volatile memory to extract critical information.
           </p>
           
           <p>
-          FTK Imager: Created a bit-by-bit image of the suspect's hard drive to preserve the integrity of the original data. Conducted an initial file system analysis to identify suspicious files and directories.
+          FTK Imager: Created a bit-by-bit image of the suspect hard drive to preserve the integrity of the original data. Conducted an initial file system analysis to identify suspicious files and directories.
           </p>
           <p>
           Encrypto: Used Encrypto to attempt decryption of these files, successfully recovering critical documents containing sensitive information related to the case.
@@ -40,7 +40,7 @@ const digitalForensics = () => {
           Quick Stego: Analyzed image and audio files for hidden data using Quick Stego. Discovered hidden messages within several image files, revealing communication logs and additional evidence of illicit activities.
           </p>
           <p>
-          Volatility: Acquired a memory dump from the suspect's system and used Volatility to analyze it. Identified running processes, network connections, and registry entries. Extracted hidden processes and discovered malware that was not visible in the standard file system analysis. Reconstructed user activity, providing a timeline of actions taken on the system, which was crucial in understanding the suspect's behavior.
+          Volatility: Acquired a memory dump from the suspect system and used Volatility to analyze it. Identified running processes, network connections, and registry entries. Extracted hidden processes and discovered malware that was not visible in the standard file system analysis. Reconstructed user activity, providing a timeline of actions taken on the system, which was crucial in understanding the suspects behavior.
           </p>
           
           {/* <a
