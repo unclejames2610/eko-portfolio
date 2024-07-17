@@ -5,6 +5,10 @@ import cryptoImg from "../public/assets/projects/crypto.jpg";
 import netflixImg from "../public/assets/projects/netflix.jpg";
 import twitchImg from "../public/assets/projects/twitch.jpg";
 import portfolioImg from "../public/assets/projects/portfolio.png";
+import penetrationImg from "../public/assets/projects/penetration.png";
+import snortImg from "../public/assets/projects/snort.png";
+import digitalForensicsImg from "../public/assets/projects/digitalForensics.png";
+import Link from "next/link";
 
 const Projects = () => {
   return (
@@ -22,24 +26,30 @@ const Projects = () => {
             tech="Next JS"
           />
           <ProjectItem
-            title="Property Finder"
-            backgroundImg={propertyImg}
-            projectUrl="/property"
-            tech="React JS"
+            title="Penetration Testing"
+            backgroundImg={penetrationImg}
+            projectUrl="/penetration"
+            tech="ssh"
           />
           <ProjectItem
-            title="Crypto App"
-            backgroundImg={cryptoImg}
-            projectUrl="/netflix"
-            tech="React JS"
+            title="Snort"
+            backgroundImg={snortImg}
+            projectUrl="/snort"
+            tech="Snort, msfconsole"
           />
           <ProjectItem
-            title="Netflix App"
-            backgroundImg={netflixImg}
-            projectUrl="/netflix"
-            tech="React JS"
+            title="Digital Forensics"
+            backgroundImg={digitalForensicsImg}
+            projectUrl="/digital-forensics"
+            tech="QuickStego"
           />
         </div>
+        <Link
+          href="/more-projects"
+          className="text-[#5651e5] mt-10 cursor-pointer hover:font-semibold hover:underline w-fit"
+        >
+          See All Projects
+        </Link>
       </div>
     </div>
   );
