@@ -13,11 +13,20 @@ import Link from "next/link";
 const Projects = () => {
   return (
     <div id="projects" className="w-full lg:h-screen p-2">
-      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
+      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full gap-6">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Projects
         </p>
-        <h2 className="py-4">What I&apos;ve Built</h2>
+        <div className="flex justify-between items-center gap-6">
+          <h2 className="py-4">What I&apos;ve Built</h2>
+          <Link
+            href="/more-projects"
+            className="text-[#5651e5] cursor-pointer hover:font-semibold hover:underline w-fit"
+          >
+            See All Projects
+          </Link>
+        </div>
+
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Portfolio"
@@ -44,12 +53,6 @@ const Projects = () => {
             tech="QuickStego"
           />
         </div>
-        <Link
-          href="/more-projects"
-          className="text-[#5651e5] mt-10 cursor-pointer hover:font-semibold hover:underline w-fit"
-        >
-          See All Projects
-        </Link>
       </div>
     </div>
   );
