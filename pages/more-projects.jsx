@@ -13,7 +13,7 @@ const moreProjects = () => {
     <div className="max-w-[1240px] mx-auto p-4 pt-[120px]">
       <div className="grid md:grid-cols-2 gap-8">
         <ProjectItem
-          title="Portfolio"
+          title="E-Portfolio"
           backgroundImg={portfolioImg}
           projectUrl="/portfolio"
           tech="Next JS"
@@ -22,37 +22,37 @@ const moreProjects = () => {
           title="Penetration Testing"
           backgroundImg={penetrationImg}
           projectUrl="/penetration"
-          tech="ssh"
+          tech="Vulnerability Exploit, Password Cracking, File Exfiltration"
         />
         <ProjectItem
-          title="Snort"
+          title="Intrusion Detection/Prevention System"
           backgroundImg={snortImg}
           projectUrl="/snort"
-          tech="Snort, msfconsole"
+          tech="Snort"
         />
         <ProjectItem
           title="Digital Forensics"
           backgroundImg={digitalForensicsImg}
           projectUrl="/digital-forensics"
-          tech="QuickStego"
+          tech="FTK Imager"
         />
         <ProjectItem
-          title="Palo Alto Firewall"
+          title="Firewall"
           backgroundImg={paloAltoImg}
           projectUrl="/palo-alto-firewall"
           tech="Palo Alto Firewall"
         />
         <ProjectItem
-          title="IOT"
+          title="IoT Tap Monitoring System"
           backgroundImg={iotWithSqlImg}
           projectUrl="/iot"
           tech="SQL"
         />
         <ProjectItem
-          title="Random Forest"
+          title="Network Intrusion Detection System"
           backgroundImg={randomForestImg}
           projectUrl="/random-forest"
-          tech="pandas, sklearn, numpy"
+          tech="Machine Learning Algorithm"
         />
       </div>
     </div>

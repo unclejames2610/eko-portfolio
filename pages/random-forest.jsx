@@ -17,8 +17,8 @@ const randomForest = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Random Forest</h2>
-          <h3>Pandas / Numpy / Sklearn</h3>
+          <h2 className="py-2">Network Intrusion Detection System</h2>
+          <h3>With Machine Learning Algorithm</h3>
         </div>
       </div>
 
@@ -27,14 +27,8 @@ const randomForest = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I simulated Penetration Testing where I gained remote access into a
-            local network of VMs. I also used Putty to establish a remote
-            session to a vulnerable windows VM and successfully exfiltrated
-            files. Performed reconnaissance on the target with Nmap and Nessus,
-            exploited the discovered vulnerabilities using msfconsole and
-            established a remote session from which I brute forced the users on
-            the network using hydra. I successfully escalated privilege and
-            exfiltrated some data using sftp.
+          Used Machine Learning classifier algorithm (Random Forest Classifier) to develop a NIDS (Network Intrusion Detection System)
+          specifically for DOS (Denial-of-Service) attacks.
           </p>
           <a
             href="https://github.com/OcheEko/NIDS-DOS-Classifier"

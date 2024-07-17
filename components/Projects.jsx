@@ -18,7 +18,7 @@ const Projects = () => {
           Projects
         </p>
         <div className="flex justify-between items-center gap-6">
-          <h2 className="py-4">What I&apos;ve Built</h2>
+          <h2 className="py-4">What I&apos;ve Done</h2>
           <Link
             href="/more-projects"
             className="text-[#5651e5] cursor-pointer hover:font-semibold hover:underline w-fit"
@@ -29,7 +29,7 @@ const Projects = () => {
 
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Portfolio"
+            title="E-Portfolio"
             backgroundImg={portfolioImg}
             projectUrl="/portfolio"
             tech="Next JS"
@@ -38,19 +38,19 @@ const Projects = () => {
             title="Penetration Testing"
             backgroundImg={penetrationImg}
             projectUrl="/penetration"
-            tech="ssh"
+            tech="Vulnerability Exploit, Password Cracking, File Exfiltration"
           />
           <ProjectItem
-            title="Snort"
+            title="Intrusion Detection/Prevention System"
             backgroundImg={snortImg}
             projectUrl="/snort"
-            tech="Snort, msfconsole"
+            tech="Snort"
           />
           <ProjectItem
             title="Digital Forensics"
             backgroundImg={digitalForensicsImg}
             projectUrl="/digital-forensics"
-            tech="QuickStego"
+            tech="FTK Imager, Volatility, QuickStego"
           />
         </div>
       </div>

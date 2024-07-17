@@ -14,7 +14,15 @@ import Bash from "../public/assets/skills/bashLogo.png";
 import AWS from "../public/assets/skills/aws.png";
 import cybersecurityLogo from "../public/assets/skills/cybersecurityLogo.png";
 import linuxLogo from "../public/assets/skills/linuxLogo.png";
-import cloudLogo from "../public/assets/skills/cloudLogo.png";
+import azurelogo from "../public/assets/skills/azurelogo.png";
+import threathunting from "../public/assets/skills/threathunting.png";
+import nessus from "../public/assets/skills/nessus.png";
+import networkanalysis from "../public/assets/skills/networkanalysis.png";
+import troubleshooting from "../public/assets/skills/troubleshooting.png";
+import pentest from "../public/assets/skills/pentest.png";
+import edr from "../public/assets/skills/edr.png";
+import github1 from "../public/assets/skills/github1.png";
+import office365 from "../public/assets/skills/office365.png";
 import programmingImage from "../public/assets/skills/programmingImage.png";
 import SkillsItem from "./SkillsItem";
 
@@ -40,28 +48,35 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Cplusplus} width="64px" height="64px" alt="/" />
+                <Image src={edr} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>C/C++</h3>
+                <h3>Endpoint Detection & Response</h3>
               </div>
             </div>
           </div>
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Bash} width="64px" height="64px" alt="/" />
+                <Image src={programmingImage} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Bash</h3>
+                <h3>Powershell</h3>
               </div>
             </div>
           </div>
 
+          <SkillsItem image={office365} skill="Office365" />
+          <SkillsItem image={nessus} skill="Vulnerability Management" />
+          <SkillsItem image={threathunting} skill="Threat Hunting & Detection" />
+          <SkillsItem image={networkanalysis} skill="Network Analysis & Monitoring" />
           <SkillsItem image={cybersecurityLogo} skill="Cybersecurity" />
-          <SkillsItem image={programmingImage} skill="Programming/ Scripting" />
-          <SkillsItem image={cloudLogo} skill="Cloud" />
-          <SkillsItem image={linuxLogo} skill="OS & Platforms" />
+          <SkillsItem image={pentest} skill="Penetration Testing" />
+          <SkillsItem image={programmingImage} skill="Risk Assessment" />
+          <SkillsItem image={azurelogo} skill="Cloud: Microsoft Azure Services" />
+          <SkillsItem image={linuxLogo} skill="Windows | Linux | Mac OS| SQL | VM" />
+          <SkillsItem image={github1} skill="GitHub" />
+          <SkillsItem image={troubleshooting} skill="Troubleshooting" />
           {/* <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>

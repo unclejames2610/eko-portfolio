@@ -27,14 +27,9 @@ const paloAltoFirewall = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I simulated Penetration Testing where I gained remote access into a
-            local network of VMs. I also used Putty to establish a remote
-            session to a vulnerable windows VM and successfully exfiltrated
-            files. Performed reconnaissance on the target with Nmap and Nessus,
-            exploited the discovered vulnerabilities using msfconsole and
-            established a remote session from which I brute forced the users on
-            the network using hydra. I successfully escalated privilege and
-            exfiltrated some data using sftp.
+          Demonstrated a simple firewall implementation using Palo Alto firewall on a local network of VMs. I implemented NAT rules to
+          guard internal subnet from the external, Allow/Deny rules to drop communication to specific websites (Facebook and porn sites),
+          and rules to drop intercommunication of the VMs on the same local network by denying ICMP packets
           </p>
           {/* <a
             href="https://github.com/unclejames2610/eko-portfolio"
@@ -65,7 +60,10 @@ const paloAltoFirewall = () => {
                 <RiRadioButtonFill className="pr-1" /> Palo Alto Firewall
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Subnet
+                <RiRadioButtonFill className="pr-1" /> Subnetting
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> NAT
               </p>
             </div>
           </div>

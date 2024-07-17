@@ -17,8 +17,8 @@ const iot = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">IOT</h2>
-          <h3>SQL /Python Random</h3>
+          <h2 className="py-2">IoT Tap Monitoring System</h2>
+          <h3>With Python and Azure SQL</h3>
         </div>
       </div>
 
@@ -27,14 +27,9 @@ const iot = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I simulated Penetration Testing where I gained remote access into a
-            local network of VMs. I also used Putty to establish a remote
-            session to a vulnerable windows VM and successfully exfiltrated
-            files. Performed reconnaissance on the target with Nmap and Nessus,
-            exploited the discovered vulnerabilities using msfconsole and
-            established a remote session from which I brute forced the users on
-            the network using hydra. I successfully escalated privilege and
-            exfiltrated some data using sftp.
+          Worked in a team of five to develop an Internet of Things (IoT) tap monitoring system using a Azure SQL database. Used python programming to simulate the
+          system and push/pull the tap status data to and from the database and display the status output on the local terminal. 
+
           </p>
           {/* <a
             href="https://github.com/unclejames2610/eko-portfolio"

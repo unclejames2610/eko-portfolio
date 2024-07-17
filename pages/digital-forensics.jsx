@@ -27,15 +27,22 @@ const digitalForensics = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I simulated Penetration Testing where I gained remote access into a
-            local network of VMs. I also used Putty to establish a remote
-            session to a vulnerable windows VM and successfully exfiltrated
-            files. Performed reconnaissance on the target with Nmap and Nessus,
-            exploited the discovered vulnerabilities using msfconsole and
-            established a remote session from which I brute forced the users on
-            the network using hydra. I successfully escalated privilege and
-            exfiltrated some data using sftp.
+          The goal of this digital forensics project was to uncover hidden evidence from a compromised system suspected of being used in illegal activities. The investigation focused on identifying hidden files, encrypted data, and steganographic content, as well as analyzing the system's volatile memory to extract critical information.
           </p>
+          
+          <p>
+          FTK Imager: Created a bit-by-bit image of the suspect's hard drive to preserve the integrity of the original data. Conducted an initial file system analysis to identify suspicious files and directories.
+          </p>
+          <p>
+          Encrypto: Used Encrypto to attempt decryption of these files, successfully recovering critical documents containing sensitive information related to the case.
+          </p>
+          <p>
+          Quick Stego: Analyzed image and audio files for hidden data using Quick Stego. Discovered hidden messages within several image files, revealing communication logs and additional evidence of illicit activities.
+          </p>
+          <p>
+          Volatility: Acquired a memory dump from the suspect's system and used Volatility to analyze it. Identified running processes, network connections, and registry entries. Extracted hidden processes and discovered malware that was not visible in the standard file system analysis. Reconstructed user activity, providing a timeline of actions taken on the system, which was crucial in understanding the suspect's behavior.
+          </p>
+          
           {/* <a
             href="https://github.com/unclejames2610/eko-portfolio"
             target="_blank"
