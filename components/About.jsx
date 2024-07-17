@@ -11,12 +11,12 @@ const About = () => {
           <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
             About
           </p>
-          <h2 className='py-4'>Who I Am</h2>
+          <h2 className='py-4'>Who AM I?</h2>
           <p className='py-2 text-gray-600'>
-          I&apos;m Oche, an Information Security Analyst dedicated to safeguarding digital landscapes. With a strong background in threat detection, vulnerability assessment, and incident response, I&apos;m passionate about ensuring data confidentiality and integrity. I collaborate with cross-functional teams to fortify network security, implement policies, and maintain compliance. My commitment to ongoing learning and proactive security measures is aimed at making the digital world a safer place.
+          I&apos;m Oche Eko, an Information Technology Practitioner with specialization in Information Security and IT/Technical Support. With a strong background in threat detection, vulnerability assessment, and incident response, I&apos;m passionate about ensuring optimum organization security posture and safety of IT assets. I collaborate with cross-functional teams to maintain IT infrastructure, implement policies, and maintain compliance. My commitment to ongoing learning and proactive security measures is aimed at making the digital world a safer place.
           </p>
           <p className='py-2 text-gray-600'>
-          In my free time, I stay updated on the latest security technologies, engage in cybersecurity forums, and share knowledge with the community. I&apos;m open to collaborations, knowledge-sharing, and discussions on enhancing digital security. Let&apos;s work together to strengthen the defenses of the digital realm and create a more secure cyberspace.
+          I have a dedidcation to contnuous learning and staying updated with the latest trends in information technology. I&apos;m an active team player in collaborative environments, knowledge-sharing, and have proven success in work efficiency. Let&apos;s work together to innovatively strengthen and ensure sustained productivity in your company IT infrastructure.
           </p>
           {/* <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>

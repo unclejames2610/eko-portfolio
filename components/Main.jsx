@@ -15,9 +15,9 @@ const Main = () => {
           <h1 className='py-4 text-gray-700'>
             Hi, I&#39;m <span className='text-[#5651e5]'> Oche</span>
           </h1>
-          <h1 className='py-2 text-gray-700'>An Information Security Analyst</h1>
+          <h2 className='py-2 text-gray-700'>An Information Security and IT Support Analyst</h2>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-          I&apos;m dedicated to fortifying digital defenses, ensuring the security and integrity of systems, and proactively addressing cyber threats by implementing comprehensive information security measures.
+          I&apos;m dedicated to proactively mitigating cyber threats by deploying comprehensive security measures. Hence, ensuring security, integrity, and optimum efficiency of IT systems and infrastructures.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a

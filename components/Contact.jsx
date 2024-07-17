@@ -51,11 +51,11 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className='py-2'>Oche Moses Eko</h2>
-                <p>Information Security Analyst</p>
+                <h2 className='py-2'>Oche Eko</h2>
+                <p><b>Information Security Analyst</b></p>
+                <p><b>IT Support Analyst</b></p>
                 <p className='py-4'>
-                  I am available for freelance or full-time positions. Contact
-                  me and let&apos;s talk.
+                  I am available for Full Time Positions.
                 </p>
               </div>
               <div>
