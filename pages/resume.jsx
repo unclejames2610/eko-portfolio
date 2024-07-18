@@ -18,7 +18,7 @@ const resume = () => {
         <h2 className="text-center">Resume</h2>
         <div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
           <h2 className="sm:text-center">
-            Oche Moses Eko (Meng | SC-900 | Security+)
+            Oche Eko (M.Eng | Security+ | SC-900 | Az-900 )
           </h2>
           <div className="flex">
             <a
